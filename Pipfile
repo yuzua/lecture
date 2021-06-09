@@ -10,6 +10,7 @@ sklearn = "*"
 tensorflow = "*"
 jupyter = "*"
 matplotlib = "*"
+autopep8 = "*"
 
 [dev-packages]
 
