@@ -9,3 +9,8 @@
             ④重みの修正　for i in range(len(weights)):
                             weights[i] -= alpha * weights_delta[i]    
         1：入力値が複数の場合
+        2：deltaと重みの微調整用の足し算、掛け算を細分化
+        3：手入力の数字文字の判定(出力1)
+        4：???
+        5：三角形かを判別(出力1)
+        6：信号機
