@@ -1,0 +1,11 @@
+○問題演習
+    chap3：簡単な単一ニューロンの実装
+    chap4：単一ニューロンに重みを加えた場合
+    cahp5
+        学習の流れ：
+            ①誤差を求める　error = (pred - goal_pred) ** 2
+            ②デルタを求める　delta = pred - truth
+            ③重みの微調整　weights_delta = ele_mul(delta, input)
+            ④重みの修正　for i in range(len(weights)):
+                            weights[i] -= alpha * weights_delta[i]    
+        1：入力値が複数の場合
